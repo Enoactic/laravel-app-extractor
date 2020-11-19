@@ -1,0 +1,23 @@
+{
+    "name": "enoactic/laravel-app-extractor",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Boonyaphat Intasin",
+            "email": "aosmosiss-ze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelCalculation\\": "src/LaravelCalculation"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "rodneyrehm/plist": "^2.0",
+        "tufanbarisyildirim/php-apk-parser": "^2.0"
+    }
+}
